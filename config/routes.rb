@@ -1,6 +1,15 @@
 Graph3::Application.routes.draw do
+  resources :calendar
+
   get "home/index"
   root to: 'home#index'
+
+  # Add route for OmniAuth callback
+  # The Redirect URIs is the destination when returning authentication responses (tokens) after successfully authenticating users. Also referred to as reply URLs.
+  # http://localhost:3000/auth/microsoft_graph_auth/callback
+  match '/auth/:provider/callback', to: 'auth#callback', via: [:get, :post]
+
+  get 'auth/signout'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

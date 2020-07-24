@@ -29,6 +29,9 @@
               <li class="nav-item" data-turbolinks="false">
                 <%= link_to "Calendar", "/calendar", class: "nav-link#{' active' if controller.controller_name == 'calendar'}" %>
               </li>
+              <li class="nav-item" data-turbolinks="false">
+                <%= link_to "Create Calendar Event", "/calendar", method: :post, class: "nav-link#{' active' if controller.controller_name == 'calendar'}" %>
+              </li>
             <% end %>
           </ul>
           <ul class="navbar-nav justify-content-end">
