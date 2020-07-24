@@ -7,7 +7,7 @@ gem 'rails', '= 3.2.21'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg', '~> 0.15.1'
-gem 'rake', '~> 10.3.2'
+gem 'rake', '~> 12.3.3'
 gem 'rack-cache', '~> 1.9.0'
 gem 'rb-inotify', '~> 0.9.10'
 gem 'pry-rails'
