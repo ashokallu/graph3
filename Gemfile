@@ -15,7 +15,7 @@ gem 'pry-rails'
 # graph API #
 # OAuth
 gem 'httparty', '= 0.16.2' # for making calls to Microsoft Graph.
-gem 'nokogiri', '= 1.6.0'
+gem 'nokogiri', '1.13.4'
 # REST calls to Microsoft Graph
 gem 'omniauth-oauth2', '= 1.1.0' # for handling sign-in and OAuth token flows.
 gem 'dalli', '= 2.6.3'
