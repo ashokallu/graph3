@@ -39,7 +39,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.6)
-    dalli (2.6.3)
+    dalli (3.2.3)
     erubis (2.7.0)
     execjs (2.7.0)
     faraday (0.17.3)
@@ -145,7 +145,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
-  dalli (= 2.6.3)
+  dalli (= 3.2.3)
   httparty (= 0.16.2)
   jquery-rails
   nokogiri (= 1.6.0)
