@@ -17,7 +17,7 @@ gem 'pry-rails'
 gem 'httparty', '= 0.16.2' # for making calls to Microsoft Graph.
 gem 'nokogiri', '= 1.6.0'
 # REST calls to Microsoft Graph
-gem 'omniauth-oauth2', '= 1.1.0' # for handling sign-in and OAuth token flows.
+gem 'omniauth-oauth2', '1.1.1' # for handling sign-in and OAuth token flows.
 gem 'dalli', '= 2.6.3'
 #
 # gems that cannot be installed in Rails version '3.2.21'
